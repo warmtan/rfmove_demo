@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/controller/include/controller/hardware.h
+string
+-
+vector
+-
+map
+-
+
+/home/robotflow/rfmove/src/controller/dummy_hardware.cpp
+controller/hardware.h
+/home/robotflow/rfmove/src/controller/controller/hardware.h
+
