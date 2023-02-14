@@ -5,9 +5,9 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/src/controller/include
         ${PROJECT_SOURCE_DIR}/src/util
         ${PROJECT_SOURCE_DIR}/extern/kdl_kinematics_plugin/include
-        ${PROJECT_SOURCE_DIR}/extern/franka_ikfast_plugin/include
-        ${PROJECT_SOURCE_DIR}/extern/tobor_ikfast_plugin/include
-        ${PROJECT_SOURCE_DIR}/extern/ifast_inlcude
+        # ${PROJECT_SOURCE_DIR}/extern/franka_ikfast_plugin/include
+        # ${PROJECT_SOURCE_DIR}/extern/tobor_ikfast_plugin/include
+        # ${PROJECT_SOURCE_DIR}/extern/ifast_inlcude
         include_python
         include
         include_python/rfmove_np
@@ -60,8 +60,8 @@ target_link_libraries(moveit_noros PRIVATE
         ${robot_trajectory_lib}
         ${trajectory_processing_lib}
         kdl_kinematics_noros
-        franka_ik_kinematics_noros
-        tobor_left_kinematics_noros
+        # franka_ik_kinematics_noros
+        # tobor_left_kinematics_noros
         controller_noros
         ${lapack_lib}
         ${blas_lib}

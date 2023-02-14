@@ -1041,11 +1041,6 @@
 /home/robotflow/rfmove/install/lib/libyaml-cpp.so
 /home/robotflow/rfmove/install/lib/libkdl_kinematics_noros.so
 /home/robotflow/rfmove/install/include/kdl_kinematics_plugin/kdl_kinematics_plugin.h
-/home/robotflow/rfmove/install/lib/libtobor_left_kinematics_noros.so
-/home/robotflow/rfmove/install/include/tobor_left_arm_group_ikfast_moveit_plugin.h
-/home/robotflow/rfmove/install/lib/libtobor_left_kinematics_noros.so
-/home/robotflow/rfmove/install/lib/libfranka_ik_kinematics_noros.so
-/home/robotflow/rfmove/install/include/franka_panda_arm_ikfast_moveit_plugin.h
 /home/robotflow/rfmove/install/lib/librobot_model_noros.so
 /home/robotflow/rfmove/install/include/robot_model/ExampleClass.h
 /home/robotflow/rfmove/install/include/robot_model/RobotModelLoader.h

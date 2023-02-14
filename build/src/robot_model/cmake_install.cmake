@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librobot_model_noros.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librobot_model_noros.so"
-         OLD_RPATH "/home/robotflow/rfmove/extern/lib:/home/robotflow/rfmove/build/src/yaml-cpp:/home/robotflow/rfmove/build/extern/kdl_kinematics_plugin:/home/robotflow/rfmove/build/extern/franka_ikfast_plugin:/home/robotflow/rfmove/build/extern/tobor_ikfast_plugin:"
+         OLD_RPATH "/home/robotflow/rfmove/extern/lib:/home/robotflow/rfmove/build/src/yaml-cpp:/home/robotflow/rfmove/build/extern/kdl_kinematics_plugin:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librobot_model_noros.so")

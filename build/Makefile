@@ -197,32 +197,6 @@ kdl_kinematics_noros/fast:
 .PHONY : kdl_kinematics_noros/fast
 
 #=============================================================================
-# Target rules for targets named tobor_left_kinematics_noros
-
-# Build rule for target.
-tobor_left_kinematics_noros: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tobor_left_kinematics_noros
-.PHONY : tobor_left_kinematics_noros
-
-# fast build rule for target.
-tobor_left_kinematics_noros/fast:
-	$(MAKE) -f extern/tobor_ikfast_plugin/CMakeFiles/tobor_left_kinematics_noros.dir/build.make extern/tobor_ikfast_plugin/CMakeFiles/tobor_left_kinematics_noros.dir/build
-.PHONY : tobor_left_kinematics_noros/fast
-
-#=============================================================================
-# Target rules for targets named franka_ik_kinematics_noros
-
-# Build rule for target.
-franka_ik_kinematics_noros: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 franka_ik_kinematics_noros
-.PHONY : franka_ik_kinematics_noros
-
-# fast build rule for target.
-franka_ik_kinematics_noros/fast:
-	$(MAKE) -f extern/franka_ikfast_plugin/CMakeFiles/franka_ik_kinematics_noros.dir/build.make extern/franka_ikfast_plugin/CMakeFiles/franka_ik_kinematics_noros.dir/build
-.PHONY : franka_ik_kinematics_noros/fast
-
-#=============================================================================
 # Target rules for targets named robot_model_noros
 
 # Build rule for target.
@@ -329,8 +303,6 @@ help:
 	@echo "... urdf_converter"
 	@echo "... yaml-cpp"
 	@echo "... kdl_kinematics_noros"
-	@echo "... tobor_left_kinematics_noros"
-	@echo "... franka_ik_kinematics_noros"
 	@echo "... robot_model_noros"
 	@echo "... planner_noros"
 	@echo "... dummy_controller"

@@ -31,9 +31,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/controller/include"
   "../src/util"
   "../extern/kdl_kinematics_plugin/include"
-  "../extern/franka_ikfast_plugin/include"
-  "../extern/tobor_ikfast_plugin/include"
-  "../extern/ifast_inlcude"
   "../src/python/include_python"
   "../src/python/include"
   "../src/python/include_python/rfmove_np"
@@ -48,8 +45,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/robotflow/rfmove/build/src/yaml-cpp/CMakeFiles/yaml-cpp.dir/DependInfo.cmake"
   "/home/robotflow/rfmove/build/extern/kdl_kinematics_plugin/CMakeFiles/kdl_kinematics_noros.dir/DependInfo.cmake"
-  "/home/robotflow/rfmove/build/extern/franka_ikfast_plugin/CMakeFiles/franka_ik_kinematics_noros.dir/DependInfo.cmake"
-  "/home/robotflow/rfmove/build/extern/tobor_ikfast_plugin/CMakeFiles/tobor_left_kinematics_noros.dir/DependInfo.cmake"
   "/home/robotflow/rfmove/build/src/controller/CMakeFiles/controller_noros.dir/DependInfo.cmake"
   )
 

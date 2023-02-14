@@ -24,8 +24,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../extern/include"
   "../src/util"
   "../extern/kdl_kinematics_plugin/include"
-  "../extern/franka_ikfast_plugin/include"
-  "../extern/tobor_ikfast_plugin/include"
   "../extern/ifast_inlcude"
   "/usr/include/eigen3"
   "../extern/yaml-cpp/include"
@@ -35,8 +33,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/robotflow/rfmove/build/src/yaml-cpp/CMakeFiles/yaml-cpp.dir/DependInfo.cmake"
   "/home/robotflow/rfmove/build/extern/kdl_kinematics_plugin/CMakeFiles/kdl_kinematics_noros.dir/DependInfo.cmake"
-  "/home/robotflow/rfmove/build/extern/franka_ikfast_plugin/CMakeFiles/franka_ik_kinematics_noros.dir/DependInfo.cmake"
-  "/home/robotflow/rfmove/build/extern/tobor_ikfast_plugin/CMakeFiles/tobor_left_kinematics_noros.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

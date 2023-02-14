@@ -146,18 +146,16 @@ src/robot_model/librobot_model_noros.so: ../extern/lib/libmoveit_collision_detec
 src/robot_model/librobot_model_noros.so: ../extern/lib/libmoveit_planning_scene.so
 src/robot_model/librobot_model_noros.so: src/yaml-cpp/libyaml-cpp.so
 src/robot_model/librobot_model_noros.so: extern/kdl_kinematics_plugin/libkdl_kinematics_noros.so
-src/robot_model/librobot_model_noros.so: extern/franka_ikfast_plugin/libfranka_ik_kinematics_noros.so
-src/robot_model/librobot_model_noros.so: extern/tobor_ikfast_plugin/libtobor_left_kinematics_noros.so
 src/robot_model/librobot_model_noros.so: ../extern/lib/liblapack.a
 src/robot_model/librobot_model_noros.so: ../extern/lib/libblas.a
 src/robot_model/librobot_model_noros.so: ../extern/lib/libgfortran.so
-src/robot_model/librobot_model_noros.so: ../extern/lib/libkdl_parser.so
-src/robot_model/librobot_model_noros.so: ../extern/lib/libkdl_conversions.so
 src/robot_model/librobot_model_noros.so: ../extern/lib/libmoveit_rdf_loader.so
 src/robot_model/librobot_model_noros.so: ../extern/lib/liborocos-kdl.so
 src/robot_model/librobot_model_noros.so: ../extern/lib/libmoveit_robot_state.so
 src/robot_model/librobot_model_noros.so: ../extern/lib/libmoveit_robot_model.so
 src/robot_model/librobot_model_noros.so: ../extern/lib/libmoveit_kinematics_base.so
+src/robot_model/librobot_model_noros.so: ../extern/lib/libkdl_parser.so
+src/robot_model/librobot_model_noros.so: ../extern/lib/libkdl_conversions.so
 src/robot_model/librobot_model_noros.so: src/robot_model/CMakeFiles/robot_model_noros.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robotflow/rfmove/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library librobot_model_noros.so"
 	cd /home/robotflow/rfmove/build/src/robot_model && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_model_noros.dir/link.txt --verbose=$(VERBOSE)

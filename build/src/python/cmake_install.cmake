@@ -57,7 +57,7 @@ file(INSTALL DESTINATION "/home/robotflow/.conda/envs/py38/lib/python3.8/site-pa
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/robotflow/rfmove/extern/lib:/home/robotflow/rfmove/build/src/yaml-cpp:/home/robotflow/rfmove/build/extern/kdl_kinematics_plugin:/home/robotflow/rfmove/build/extern/franka_ikfast_plugin:/home/robotflow/rfmove/build/extern/tobor_ikfast_plugin:/home/robotflow/rfmove/build/src/controller:"
+         OLD_RPATH "/home/robotflow/rfmove/extern/lib:/home/robotflow/rfmove/build/src/yaml-cpp:/home/robotflow/rfmove/build/extern/kdl_kinematics_plugin:/home/robotflow/rfmove/build/src/controller:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so")
@@ -77,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_noros.cpython-38-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_noros.cpython-38-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/robotflow/rfmove/extern/lib:/home/robotflow/rfmove/build/src/yaml-cpp:/home/robotflow/rfmove/build/extern/kdl_kinematics_plugin:/home/robotflow/rfmove/build/extern/franka_ikfast_plugin:/home/robotflow/rfmove/build/extern/tobor_ikfast_plugin:/home/robotflow/rfmove/build/src/controller:"
+         OLD_RPATH "/home/robotflow/rfmove/extern/lib:/home/robotflow/rfmove/build/src/yaml-cpp:/home/robotflow/rfmove/build/extern/kdl_kinematics_plugin:/home/robotflow/rfmove/build/src/controller:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_noros.cpython-38-x86_64-linux-gnu.so")
