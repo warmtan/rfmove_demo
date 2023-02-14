@@ -4,3 +4,4 @@
 # 目前只保留了kdl ik
 # ImportError: /lib/x86_64-linux-gnu/libp11-kit.so.0: undefined symbol: ffi_type_pointer, version LIBFFI_BASE_7.0
 # conda install libffi=3.3 对比
+# https://github.com/mvig-robotflow/rfmove.git
