@@ -1,0 +1,455 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/python/moveit_noros.cpython-38-x86_64-linux-gnu.so"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__Python_add_library",
+			"python_add_library",
+			"pybind11_add_module",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake-3.16/Modules/FindPython/Support.cmake",
+			"/usr/share/cmake-3.16/Modules/FindPython.cmake",
+			"extern/pybind11/tools/pybind11NewTools.cmake",
+			"src/python/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 194,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 355,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2341,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 26,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 2346,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 203,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fvisibility=hidden  "
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "TIXML_USE_STL"
+				},
+				{
+					"define" : "moveit_noros_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/extern/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/src/robot_model/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/src/planner/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/src/controller/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/src/util"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/extern/kdl_kinematics_plugin/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/src/python/include_python"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/src/python/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/src/python/include_python/rfmove_np"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/src/python/../../extern"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/robotflow/rfmove/extern/yaml-cpp/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "/opt/miniconda3/include/python3.8"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/robotflow/rfmove/extern/pybind11/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "yaml-cpp::@3224ec115378c3264734"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "kdl_kinematics_noros::@8dc28cdb2dff26c70709"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "controller_noros::@837b442b54436f7e89c3"
+		}
+	],
+	"id" : "moveit_noros::@ab362f55af289f26d4ad",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "/opt/miniconda3/lib/python3.8/site-packages"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/robotflow/rfmove/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/robotflow/rfmove/extern/lib:/home/robotflow/rfmove/build/src/yaml-cpp:/home/robotflow/rfmove/build/extern/kdl_kinematics_plugin:/home/robotflow/rfmove/build/src/controller:",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_rdf_loader.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_robot_model.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../yaml-cpp/libyaml-cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_kinematics_base.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_collision_detection.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_planning_scene.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_planning_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_ompl_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_constraint_samplers.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_robot_trajectory.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_trajectory_processing.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../../extern/kdl_kinematics_plugin/libkdl_kinematics_noros.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../controller/libcontroller_noros.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/liblapack.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libblas.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libgfortran.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_rdf_loader.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/liborocos-kdl.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_robot_state.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_robot_model.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_kinematics_base.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libkdl_parser.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libkdl_conversions.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_robot_trajectory.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../extern/lib/libmoveit_trajectory_processing.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "moveit_noros",
+	"nameOnDisk" : "moveit_noros.cpython-38-x86_64-linux-gnu.so",
+	"paths" : 
+	{
+		"build" : "src/python",
+		"source" : "src/python"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/robot_model/src/ExampleClass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/robot_model/src/JointLimitsLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/robot_model/src/KinematicsLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/robot_model/src/RobotModelLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/planner/src/PlannerConfiguration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/planner/src/PlannerManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/util/path_util.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/python/src/hardware_pybullet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/python/src/helper_pybullet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/python/RobotModelLoaderPy.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

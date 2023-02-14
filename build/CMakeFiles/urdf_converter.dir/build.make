@@ -60,15 +60,15 @@ include CMakeFiles/urdf_converter.dir/flags.make
 CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.o: CMakeFiles/urdf_converter.dir/flags.make
 CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.o: ../src/util/urdf_converter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotflow/rfmove/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.o -c /home/robotflow/rfmove/src/util/urdf_converter.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.o -c /home/robotflow/rfmove/src/util/urdf_converter.cpp
 
 CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotflow/rfmove/src/util/urdf_converter.cpp > CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotflow/rfmove/src/util/urdf_converter.cpp > CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.i
 
 CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotflow/rfmove/src/util/urdf_converter.cpp -o CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotflow/rfmove/src/util/urdf_converter.cpp -o CMakeFiles/urdf_converter.dir/src/util/urdf_converter.cpp.s
 
 # Object files for target urdf_converter
 urdf_converter_OBJECTS = \

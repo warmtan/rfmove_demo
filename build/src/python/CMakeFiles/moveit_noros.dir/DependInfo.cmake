@@ -37,7 +37,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/eigen3"
   "../src/python/../../extern"
   "../extern/yaml-cpp/include"
-  "/home/robotflow/.conda/envs/py38/include/python3.8"
+  "/opt/miniconda3/include/python3.8"
   "../extern/pybind11/include"
   )
 

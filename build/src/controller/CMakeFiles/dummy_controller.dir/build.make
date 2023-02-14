@@ -60,15 +60,15 @@ include src/controller/CMakeFiles/dummy_controller.dir/flags.make
 src/controller/CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.o: src/controller/CMakeFiles/dummy_controller.dir/flags.make
 src/controller/CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.o: ../src/controller/dummy_hardware.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotflow/rfmove/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/controller/CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.o"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.o -c /home/robotflow/rfmove/src/controller/dummy_hardware.cpp
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.o -c /home/robotflow/rfmove/src/controller/dummy_hardware.cpp
 
 src/controller/CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.i"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotflow/rfmove/src/controller/dummy_hardware.cpp > CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.i
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotflow/rfmove/src/controller/dummy_hardware.cpp > CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.i
 
 src/controller/CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.s"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotflow/rfmove/src/controller/dummy_hardware.cpp -o CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.s
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotflow/rfmove/src/controller/dummy_hardware.cpp -o CMakeFiles/dummy_controller.dir/dummy_hardware.cpp.s
 
 # Object files for target dummy_controller
 dummy_controller_OBJECTS = \

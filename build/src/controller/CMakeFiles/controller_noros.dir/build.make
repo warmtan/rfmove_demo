@@ -60,41 +60,41 @@ include src/controller/CMakeFiles/controller_noros.dir/flags.make
 src/controller/CMakeFiles/controller_noros.dir/src/trajectory.cpp.o: src/controller/CMakeFiles/controller_noros.dir/flags.make
 src/controller/CMakeFiles/controller_noros.dir/src/trajectory.cpp.o: ../src/controller/src/trajectory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotflow/rfmove/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/controller/CMakeFiles/controller_noros.dir/src/trajectory.cpp.o"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller_noros.dir/src/trajectory.cpp.o -c /home/robotflow/rfmove/src/controller/src/trajectory.cpp
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller_noros.dir/src/trajectory.cpp.o -c /home/robotflow/rfmove/src/controller/src/trajectory.cpp
 
 src/controller/CMakeFiles/controller_noros.dir/src/trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/controller_noros.dir/src/trajectory.cpp.i"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotflow/rfmove/src/controller/src/trajectory.cpp > CMakeFiles/controller_noros.dir/src/trajectory.cpp.i
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotflow/rfmove/src/controller/src/trajectory.cpp > CMakeFiles/controller_noros.dir/src/trajectory.cpp.i
 
 src/controller/CMakeFiles/controller_noros.dir/src/trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/controller_noros.dir/src/trajectory.cpp.s"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotflow/rfmove/src/controller/src/trajectory.cpp -o CMakeFiles/controller_noros.dir/src/trajectory.cpp.s
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotflow/rfmove/src/controller/src/trajectory.cpp -o CMakeFiles/controller_noros.dir/src/trajectory.cpp.s
 
 src/controller/CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.o: src/controller/CMakeFiles/controller_noros.dir/flags.make
 src/controller/CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.o: ../src/controller/src/trajectory_controller.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotflow/rfmove/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/controller/CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.o"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.o -c /home/robotflow/rfmove/src/controller/src/trajectory_controller.cpp
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.o -c /home/robotflow/rfmove/src/controller/src/trajectory_controller.cpp
 
 src/controller/CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.i"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotflow/rfmove/src/controller/src/trajectory_controller.cpp > CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.i
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotflow/rfmove/src/controller/src/trajectory_controller.cpp > CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.i
 
 src/controller/CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.s"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotflow/rfmove/src/controller/src/trajectory_controller.cpp -o CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.s
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotflow/rfmove/src/controller/src/trajectory_controller.cpp -o CMakeFiles/controller_noros.dir/src/trajectory_controller.cpp.s
 
 src/controller/CMakeFiles/controller_noros.dir/src/hardware.cpp.o: src/controller/CMakeFiles/controller_noros.dir/flags.make
 src/controller/CMakeFiles/controller_noros.dir/src/hardware.cpp.o: ../src/controller/src/hardware.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotflow/rfmove/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/controller/CMakeFiles/controller_noros.dir/src/hardware.cpp.o"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller_noros.dir/src/hardware.cpp.o -c /home/robotflow/rfmove/src/controller/src/hardware.cpp
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller_noros.dir/src/hardware.cpp.o -c /home/robotflow/rfmove/src/controller/src/hardware.cpp
 
 src/controller/CMakeFiles/controller_noros.dir/src/hardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/controller_noros.dir/src/hardware.cpp.i"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotflow/rfmove/src/controller/src/hardware.cpp > CMakeFiles/controller_noros.dir/src/hardware.cpp.i
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotflow/rfmove/src/controller/src/hardware.cpp > CMakeFiles/controller_noros.dir/src/hardware.cpp.i
 
 src/controller/CMakeFiles/controller_noros.dir/src/hardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/controller_noros.dir/src/hardware.cpp.s"
-	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotflow/rfmove/src/controller/src/hardware.cpp -o CMakeFiles/controller_noros.dir/src/hardware.cpp.s
+	cd /home/robotflow/rfmove/build/src/controller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotflow/rfmove/src/controller/src/hardware.cpp -o CMakeFiles/controller_noros.dir/src/hardware.cpp.s
 
 # Object files for target controller_noros
 controller_noros_OBJECTS = \

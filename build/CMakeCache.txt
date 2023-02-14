@@ -30,15 +30,14 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+//No help, variable specified on the command line.
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -63,8 +62,8 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+//No help, variable specified on the command line.
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -107,8 +106,8 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
+//No help, variable specified on the command line.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //User executables (bin)
 CMAKE_INSTALL_BINDIR:PATH=bin
@@ -301,19 +300,19 @@ PYBIND11_TEST:BOOL=OFF
 Python_LIBRARY_DEBUG:FILEPATH=
 
 //Path to a library.
-Python_LIBRARY_RELEASE:FILEPATH=/home/robotflow/.conda/envs/py38/lib/libpython3.8.so
+Python_LIBRARY_RELEASE:FILEPATH=/opt/miniconda3/lib/libpython3.8.so
 
 //Whether build library or executable program depend on bullet3
 WITH_BULLET3:BOOL=OFF
 
 //Path to a program.
-_Python_EXECUTABLE:FILEPATH=/home/robotflow/.conda/envs/py38/bin/python3.8
+_Python_EXECUTABLE:FILEPATH=/opt/miniconda3/bin/python3.8
 
 //Path to a file.
-_Python_INCLUDE_DIR:PATH=/home/robotflow/.conda/envs/py38/include/python3.8
+_Python_INCLUDE_DIR:PATH=/opt/miniconda3/include/python3.8
 
 //Path to a library.
-_Python_LIBRARY_RELEASE:FILEPATH=/home/robotflow/.conda/envs/py38/lib/libpython3.8.so
+_Python_LIBRARY_RELEASE:FILEPATH=/opt/miniconda3/lib/libpython3.8.so
 
 //Path to a library.
 blas_lib:FILEPATH=/home/robotflow/rfmove/extern/lib/libblas.a
@@ -583,7 +582,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Boost
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake][cfound components: system filesystem ][v1.71.0()]
 //Details about finding Python
-FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/home/robotflow/.conda/envs/py38/bin/python3.8][/home/robotflow/.conda/envs/py38/lib/libpython3.8.so][/home/robotflow/.conda/envs/py38/include/python3.8][cfound components: Interpreter Development ][v3.8.13(3.8)]
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/opt/miniconda3/bin/python3.8][/opt/miniconda3/lib/libpython3.8.so][/opt/miniconda3/include/python3.8][cfound components: Interpreter Development ][v3.8.13(3.8)]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Test HAS_FLTO
@@ -601,14 +600,14 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/home/robotflow/rfmove/instal
 _Python:INTERNAL=Python
 //ADVANCED property for variable: _Python_DEVELOPMENT_SIGNATURE
 _Python_DEVELOPMENT_SIGNATURE-ADVANCED:INTERNAL=1
-_Python_DEVELOPMENT_SIGNATURE:INTERNAL=3e9ccc0b2bfb4a3cabd293dc2ea8da80
+_Python_DEVELOPMENT_SIGNATURE:INTERNAL=6e896d841a402d25ea238ea7b33691ce
 //ADVANCED property for variable: _Python_EXECUTABLE
 _Python_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: _Python_INCLUDE_DIR
 _Python_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: _Python_INTERPRETER_SIGNATURE
 _Python_INTERPRETER_SIGNATURE-ADVANCED:INTERNAL=1
-_Python_INTERPRETER_SIGNATURE:INTERNAL=68a7589e08292cc7419a792d752b3628
+_Python_INTERPRETER_SIGNATURE:INTERNAL=7ee224303bd41fa996582c751c6cd446
 //ADVANCED property for variable: _Python_LIBRARY_RELEASE
 _Python_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_filesystem_DIR
@@ -622,5 +621,5 @@ pybind11_FOUND:INTERNAL=TRUE
 //Directory where pybind11 headers are located
 pybind11_INCLUDE_DIR:INTERNAL=/home/robotflow/rfmove/extern/pybind11/include
 //Directories where pybind11 and possibly Python headers are located
-pybind11_INCLUDE_DIRS:INTERNAL=/home/robotflow/rfmove/extern/pybind11/include;/home/robotflow/.conda/envs/py38/include/python3.8
+pybind11_INCLUDE_DIRS:INTERNAL=/home/robotflow/rfmove/extern/pybind11/include;/opt/miniconda3/include/python3.8
 

@@ -38,29 +38,29 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}/opt/miniconda3/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/opt/miniconda3/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}/opt/miniconda3/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so")
+   "/opt/miniconda3/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages" TYPE MODULE FILES "/home/robotflow/rfmove/build/src/python/moveit_noros.cpython-38-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so")
+file(INSTALL DESTINATION "/opt/miniconda3/lib/python3.8/site-packages" TYPE MODULE FILES "/home/robotflow/rfmove/build/src/python/moveit_noros.cpython-38-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}/opt/miniconda3/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/opt/miniconda3/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}/opt/miniconda3/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so"
          OLD_RPATH "/home/robotflow/rfmove/extern/lib:/home/robotflow/rfmove/build/src/yaml-cpp:/home/robotflow/rfmove/build/extern/kdl_kinematics_plugin:/home/robotflow/rfmove/build/src/controller:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/robotflow/.conda/envs/py38/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/opt/miniconda3/lib/python3.8/site-packages/moveit_noros.cpython-38-x86_64-linux-gnu.so")
     endif()
   endif()
 endif()
