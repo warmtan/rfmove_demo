@@ -76,7 +76,7 @@ add_definitions的功能和C/C++中的#define是一样的add_definitions的功�
 ## add_compile_definitions(TIXML_USE_STL)
 ---------------------------
 
-### thread python多线程包
+### thread 多线程包
 ## find_package(Threads REQUIRED)
 ---------------------------
 

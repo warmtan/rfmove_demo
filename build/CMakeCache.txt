@@ -305,14 +305,8 @@ Python_LIBRARY_RELEASE:FILEPATH=/opt/miniconda3/lib/libpython3.8.so
 //Whether build library or executable program depend on bullet3
 WITH_BULLET3:BOOL=OFF
 
-//Path to a program.
-_Python_EXECUTABLE:FILEPATH=/opt/miniconda3/bin/python3.8
-
 //Path to a file.
 _Python_INCLUDE_DIR:PATH=/opt/miniconda3/include/python3.8
-
-//Path to a library.
-_Python_LIBRARY_RELEASE:FILEPATH=/opt/miniconda3/lib/libpython3.8.so
 
 //Path to a library.
 blas_lib:FILEPATH=/home/robotflow/rfmove/extern/lib/libblas.a
@@ -603,6 +597,7 @@ _Python_DEVELOPMENT_SIGNATURE-ADVANCED:INTERNAL=1
 _Python_DEVELOPMENT_SIGNATURE:INTERNAL=6e896d841a402d25ea238ea7b33691ce
 //ADVANCED property for variable: _Python_EXECUTABLE
 _Python_EXECUTABLE-ADVANCED:INTERNAL=1
+_Python_EXECUTABLE:INTERNAL=/opt/miniconda3/bin/python3.8
 //ADVANCED property for variable: _Python_INCLUDE_DIR
 _Python_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: _Python_INTERPRETER_SIGNATURE
@@ -610,6 +605,7 @@ _Python_INTERPRETER_SIGNATURE-ADVANCED:INTERNAL=1
 _Python_INTERPRETER_SIGNATURE:INTERNAL=7ee224303bd41fa996582c751c6cd446
 //ADVANCED property for variable: _Python_LIBRARY_RELEASE
 _Python_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+_Python_LIBRARY_RELEASE:INTERNAL=/opt/miniconda3/lib/libpython3.8.so
 //ADVANCED property for variable: boost_filesystem_DIR
 boost_filesystem_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_headers_DIR

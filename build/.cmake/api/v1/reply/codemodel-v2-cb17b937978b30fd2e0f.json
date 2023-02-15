@@ -1,0 +1,245 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "extern/pybind11",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "extern/pybind11"
+				},
+				{
+					"build" : "src/yaml-cpp",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/yaml-cpp",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "extern/kdl_kinematics_plugin",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern/kdl_kinematics_plugin",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/robot_model",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/robot_model",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/planner",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/planner",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/controller",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/controller",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "src/python",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/python",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "moveit_no_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "pybind11",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "controller_noros::@837b442b54436f7e89c3",
+					"jsonFile" : "target-controller_noros-Debug-1cdb8fd323802a0c8af0.json",
+					"name" : "controller_noros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "dummy_controller::@837b442b54436f7e89c3",
+					"jsonFile" : "target-dummy_controller-Debug-129b7ed60201c61de144.json",
+					"name" : "dummy_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "kdl_kinematics_noros::@8dc28cdb2dff26c70709",
+					"jsonFile" : "target-kdl_kinematics_noros-Debug-010d1ffb6ad8cd57c878.json",
+					"name" : "kdl_kinematics_noros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "moveit_noros::@ab362f55af289f26d4ad",
+					"jsonFile" : "target-moveit_noros-Debug-4bd7cc5044ed5800b0cd.json",
+					"name" : "moveit_noros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "planner_noros::@6d7bf296ecf12e1333a6",
+					"jsonFile" : "target-planner_noros-Debug-03b17d6ae163eecc1063.json",
+					"name" : "planner_noros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "robot_model_noros::@d63051737f18ee61455c",
+					"jsonFile" : "target-robot_model_noros-Debug-05d69c0c2bb32c1b60ec.json",
+					"name" : "robot_model_noros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdf_converter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdf_converter-Debug-604963e9be9ee802cbd8.json",
+					"name" : "urdf_converter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "yaml-cpp::@3224ec115378c3264734",
+					"jsonFile" : "target-yaml-cpp-Debug-fa4096d3b78d5fda8a51.json",
+					"name" : "yaml-cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotflow/rfmove/build",
+		"source" : "/home/robotflow/rfmove"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
