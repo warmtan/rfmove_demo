@@ -1,5 +1,5 @@
-# https://github.com/mvig-robotflow/rfmove.git
-# 此项目去除了ros 保留了moveit结合了pybullet作为显示页面
+## https://github.com/mvig-robotflow/rfmove.git
+## 此项目去除了ros 保留了moveit结合了pybullet作为显示页面
     去除ikfast 相关文件配置
     修改了extern 里面 franka_ikfast_plugin  kdl_kinematics_plugin
     在src文件目录下 python文件夹下面的cmakelist去除 ik相关内容
